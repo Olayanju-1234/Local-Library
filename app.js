@@ -10,6 +10,8 @@ var usersRouter = require('./routes/users');
 var catalogRouter = require('./routes/catalog');  //Import routes for "catalog" area of site
 
 var compression = require('compression');
+const { default: helmet } = require('helmet');
+
 
 
 var app = express();
